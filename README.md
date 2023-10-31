@@ -27,8 +27,10 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-- A challenge while building this web app is making sure content was rendered when using routes
-- Another challenge was making the most of the api data and making it interesting in some way
+- A challenge while building this web app is making sure content was rendered when using routes.
+- Another challenge was making the most of the api data and making it interesting in some way.
+- Also, I was challenged when trying to display data when each searched brewery was clicked.
+- Overall I had a great time building this web app.
 
 ## License
 
