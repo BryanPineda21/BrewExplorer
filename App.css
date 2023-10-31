@@ -1,0 +1,201 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+ 
+}
+
+body{
+  background-image: url("https://daily.sevenfifty.com/app/uploads/2020/05/SFD_Sierra_Nevada_1_2520x1420.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+list-style: none;
+
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  background-color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card:hover{
+  box-shadow: 5px 5px 5px gray;
+}
+
+nav {
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+}
+
+.home-link 
+{
+  border:1px dotted white;
+  background:#1d1f1d;
+  width:75px;
+}
+
+.brew-link 
+{
+  border:1px dotted white;
+  background:#1d1f1d;
+  width:75px;
+}
+
+.brew-size{
+  border:1px dotted white;
+  background:#1d1f1d;
+  width:75px;
+
+}
+
+
+.brewery-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Add a gap between brewery cards */
+}
+
+.brewery-card {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  background-color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.nav-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  display: flex; /* Use flexbox to create a row of items */
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex; /* Use flexbox to create a row of items */
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.nav-bar li {
+  margin: 0 10px;
+  display: inline; /* Display list items inline (horizontally) */
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-bar a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.whole-page input[type="text"] {
+  width: 300px; /* Set the desired width */
+  height: 40px; /* Set the desired height */
+  font-size: 18px; /* Adjust font size as needed */
+  padding: 5px; /* Adjust padding as needed */
+}
+
+/* Adjust the size of the search button (if applicable) */
+.whole-page input[type="submit"] {
+  height: 40px; /* Set the same height as the input */
+  padding: 5px; /* Adjust padding as needed */
+}
+
+
+
+.filter-card {
+  background-color: black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.filter-card h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.filter-card h3 {
+  font-size: 18px;
+  margin: 20px 0 10px;
+}
+
+.filter-card select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.filter-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.filter-card li {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.filter-card h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.filter-card h5 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.filter-card p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: flex-start;
+ /* Adjust the maximum width as needed */
+}
+
+.search-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
