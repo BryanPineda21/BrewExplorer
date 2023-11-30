@@ -1,4 +1,4 @@
-# Web Development Project 6 - *Brew App*
+# Web Development - *Brew App*
 
 Submitted by: **Bryan Pineda**
 
