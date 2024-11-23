@@ -1,6 +1,6 @@
-# Web Development - *Brew App*
+# Web Development - *BrewExplorer App*
 
-Submitted by: **Bryan Pineda**
+Developed By: **Bryan Pineda**
 
 This web app: **Allows people to search for brewery's by name, state, type and also makes it easier for people to filter out the type of brewery they would prefer**
 
